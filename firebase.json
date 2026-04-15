@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "career-realm",
+          "appId": "1:1028280226620:android:e6d236ceab6ca96b3e8439",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "career-realm",
+          "configurations": {
+            "android": "1:1028280226620:android:e6d236ceab6ca96b3e8439",
+            "ios": "1:1028280226620:ios:c385877c50f1a3253e8439",
+            "macos": "1:1028280226620:ios:887a61d51be3e8473e8439",
+            "web": "1:1028280226620:web:c961da8aacc581a63e8439",
+            "windows": "1:1028280226620:web:f3dc680011a94f963e8439"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "1028280226620",
+    "project_id": "career-realm",
+    "storage_bucket": "career-realm.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028280226620:android:e6d236ceab6ca96b3e8439",
+        "android_client_info": {
+          "package_name": "com.zworlddev.careerrealm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1028280226620-aa7il8r35vhbpig6mmi6o9qjubthd5qi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zworlddev.careerrealm",
+            "certificate_hash": "13aa212b52ac7b61e52f60f99c09dce7b3f393e3"
+          }
+        },
+        {
+          "client_id": "1028280226620-g652vkrgnkbmqbl5jnja8i3knopmd6sg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnQ62mCGDS5lq3a64vxemVMW7f9L6_KJo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1028280226620-g652vkrgnkbmqbl5jnja8i3knopmd6sg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1028280226620-bgrbnp4uoej1achqrididbge3kkriqmi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.zworlddev.harmonitimer"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028280226620:android:a90128dc744947713e8439",
+        "android_client_info": {
+          "package_name": "com.zworlddev.harmonitimer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1028280226620-g652vkrgnkbmqbl5jnja8i3knopmd6sg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnQ62mCGDS5lq3a64vxemVMW7f9L6_KJo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1028280226620-g652vkrgnkbmqbl5jnja8i3knopmd6sg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1028280226620-bgrbnp4uoej1achqrididbge3kkriqmi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.zworlddev.harmonitimer"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

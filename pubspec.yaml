@@ -1,0 +1,95 @@
+name: career_realm
+description: "Career Realm — Gamified Focus and Certified Real-World Progression."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^4.5.0
+  firebase_auth: ^6.2.0
+  cloud_firestore: ^6.1.3
+  firebase_analytics: ^12.1.3
+  firebase_app_check: ^0.4.1+5
+
+  # Google Sign-In
+  google_sign_in: ^6.3.0
+
+  # Audio / Ambient Sounds
+  audioplayers: ^6.1.0
+
+  # State management
+  provider: ^6.1.2
+  flutter_riverpod: ^2.5.1
+
+  # Shared preferences
+  shared_preferences: ^2.3.3
+
+  # Utilities
+  intl: ^0.20.2
+  uuid: ^4.5.1
+  cupertino_icons: ^1.0.8
+
+  # Launcher icon
+  flutter_launcher_icons: ^0.14.3
+  window_manager: ^0.5.1
+
+  # Download / storage for Github audio
+  path_provider: ^2.1.4
+  http: ^1.2.2
+
+  image_picker: any
+  kiosk_mode: ^0.8.0
+
+  # AI / Machine Learning
+  
+  # Notifications (Android notification channel + sound control)
+  flutter_local_notifications: ^18.0.1
+  firebase_vertexai: ^2.2.0
+  flutter_markdown: ^0.7.3
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  change_app_package_name: ^1.5.0
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  web:
+    generate: true
+    image_path: "assets/images/Career Realm.png"
+    background_color: "#1A1A3E"
+    theme_color: "#1A1A3E"
+  windows:
+    generate: true
+    image_path: "assets/images/Career Realm.png"
+    icon_size: 256
+  image_path: "assets/images/Career Realm.png"
+  adaptive_icon_background: "#1A1A3E"
+  adaptive_icon_foreground: "assets/images/Career Realm.png"
+  min_sdk_android: 26
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/sounds/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
