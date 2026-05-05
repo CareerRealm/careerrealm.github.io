@@ -1,8 +1,8 @@
 🏰 Career Realm
 
 Career Realm is a cross-platform productivity ecosystem that transforms focused study sessions into a gamified RPG progression system. Unlike standard timers, Career Realm produces a verifiable career output by bridging the gap between deep-work discipline and professional employability.
-🚀 Key Innovation Pillars
-🤖 AI-Driven Career Companion
+ Key Innovation Pillars
+ AI-Driven Career Companion
 
 The app features a sophisticated AI Wrapper service that operates in three specialized modes:
 
